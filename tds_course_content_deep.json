@@ -1,0 +1,572 @@
+[
+  {
+    "source_url": "https://tds.s-anand.net/#/../development-tools",
+    "source_type": "course_content",
+    "title": "Development Tools",
+    "content": "NOTE: The tools in this module arePRE-REQUISITESfor the course. You would have used most of these before. If most of this is new to you, please take this course later.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:14.009195+00:00",
+      "module": "Development Tools"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../development-tools",
+    "source_type": "course_content",
+    "title": "Development Tools",
+    "content": "Some tools are fundamental to data science because they are industry standards and widely used by data science professionals. Mastering these tools will align you with current best practices and making you more adaptable in a fast-evolving industry.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:14.009195+00:00",
+      "module": "Development Tools"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../development-tools",
+    "source_type": "course_content",
+    "title": "Development Tools",
+    "content": "The tools we cover here are not just popular, they’re the core technology behind most of today’s data science and software development.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:14.009195+00:00",
+      "module": "Development Tools"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../deployment-tools",
+    "source_type": "course_content",
+    "title": "Deployment Tools",
+    "content": "Any application you build is likely to be deployed somewhere. This section covers the most popular tools involved in deploying an application.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:15.071875+00:00",
+      "module": "Deployment Tools"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "This module covers the practical usage of large language models (LLMs).",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "LLMs incur a cost.For the May 2025 batch, useaipipe.orgas a proxy.\nEmails with@ds.study.iitm.ac.inget a$1 per calendar monthallowance. (Don’t exceed that.)",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "Read theAI Pipe documentationto learn how to use it. But in short:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "ReplaceOPENAI_BASE_URL, i.e.https://api.openai.com/v1withhttps://aipipe.org/openrouter/v1...orhttps://aipipe.org/openai/v1...",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "ReplaceOPENAI_API_KEYwith theAIPIPE_TOKEN",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "Replace model names, e.g.gpt-4.1-nano, withopenai/gpt-4.1-nano",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "For example, let’s useGemini 2.0 Flash LiteviaOpenRouterfor chat completions andText Embedding 3 SmallviaOpenAIfor embeddings:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "Or usingllm:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "For a 50% discount(but slower speed), useFlex processingby addingservice_tier: \"flex\"to your JSON request.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "AI Proxy - Jan 2025",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "For the Jan 2025 batch, we had created API keys for everyone with aniitm.ac.inemail to usegpt-4o-miniandtext-embedding-3-small. Your usage is limited to$1 per calendar monthfor this course. Don’t exceed that.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "UseAI Proxyinstead of OpenAI. Specifically:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "Replace your API tohttps://api.openai.com/...withhttps://aiproxy.sanand.workers.dev/openai/...",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../large-language-models",
+    "source_type": "course_content",
+    "title": "Large Language Models",
+    "content": "Replace theOPENAI_API_KEYwith theAIPROXY_TOKENthat someone will give you.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:16.181916+00:00",
+      "module": "Large Language Models"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "Before you do any kind of data science, you obviously have to get the data to be able to analyze it, visualize it, narrate it, and deploy it.\nAnd what we are going to cover in this module is how you get the data.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260171+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "There are three ways you can get the data.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "The first is you candownloadthe data. Either somebody gives you the data and says download it from here, or you are asked to download it from the internet because it’s a public data source. But that’s the first way—you download the data.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "The second way is you canquery itfrom somewhere. It may be on a database. It may be available through an API. It may be available through a library. But these are ways in which you can selectively query parts of the data and stitch it together.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "The third way is you have toscrape it. It’s not directly available in a convenient form that you can query or download. But it is, in fact, on a web page. It’s available on a PDF file. It’s available in a Word document. It’s available on an Excel file. It’s kind of structured, but you will have to figure out that structure and extract it from there.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "In this module, we will be looking at the tools that will help you either download from a data source or query from an API or from a database or from a library. And finally, how you can scrape from different sources.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "Here are links used in the video:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "The Movies Dataset",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "IMDb Datasets",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "Download the IMDb Datasets",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "Explore the Internet Movie Database",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "What does the world search for?",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "HowStat - Cricket statistics",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-sourcing",
+    "source_type": "course_content",
+    "title": "Data Sourcing",
+    "content": "Cricket Strike Rates",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:17.260678+00:00",
+      "module": "Data Sourcing"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "Data preparation is crucial because raw data is rarely perfect.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "It often contains errors, inconsistencies, or missing values. For example, marks data may have ‘NA’ or ‘absent’ for non-attendees, which you need to handle.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "This section teaches you how to clean up data, convert it to different formats, aggregate it if required, and get a feel for the data before you analyze.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "Here are links used in the video:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "Presentation used in the video",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "Scraping assembly elections - Notebook",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "Assembly election results (CSV)",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "pdftotextsoftware",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "OpenRefine software",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "The most persistent party",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-preparation",
+    "source_type": "course_content",
+    "title": "Data Preparation",
+    "content": "TN assembly election cartogram",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:18.308557+00:00",
+      "module": "Data Preparation"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Data Analysis: Introduction PodcastbyNotebookLM",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Once you’ve prepared the data, your next task is to analyze it to get insights that are not immediately obvious.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "In this module, you’ll learn:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Statistical analysis: Calculate correlations, regressions, forecasts, and outliers usingspreadsheets",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Data summarization: Aggregate and pivot data usingPythonanddatabases.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Geo-data Collection & Processing: Gather and process geospatial data using tools like Python (GeoPandas) and QGIS.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Geo-visualization: Create and visualize geospatial data on maps using Excel, QGIS, and Python libraries such as Folium.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Network & Proximity Analysis: Analyze geospatial relationships and perform network analysis to understand data distribution and clustering.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../data-analysis",
+    "source_type": "course_content",
+    "title": "Data analysis",
+    "content": "Storytelling & Decision Making: Develop narratives and make informed decisions based on geospatial data insights.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:19.358413+00:00",
+      "module": "Data Analysis"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../live-sessions",
+    "source_type": "course_content",
+    "title": "Live Sessions",
+    "content": "Live sessions by the instructors and TAs are recorded and uploaded to YouTube.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:21.450852+00:00",
+      "module": "Live Sessions"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../live-sessions",
+    "source_type": "course_content",
+    "title": "Live Sessions",
+    "content": "These were downloaded usingyt-dlp. The options compress the audio optimized for speech.",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:21.451852+00:00",
+      "module": "Live Sessions"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../live-sessions",
+    "source_type": "course_content",
+    "title": "Live Sessions",
+    "content": "They were then transcribed by Gemini 1.5 Flash 002 (currently the best model from a price-quality perspective for audio transcription).",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:21.451852+00:00",
+      "module": "Live Sessions"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../live-sessions",
+    "source_type": "course_content",
+    "title": "Live Sessions",
+    "content": "System prompt:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:21.451852+00:00",
+      "module": "Live Sessions"
+    }
+  },
+  {
+    "source_url": "https://tds.s-anand.net/#/../live-sessions",
+    "source_type": "course_content",
+    "title": "Live Sessions",
+    "content": "User prompt:",
+    "metadata": {
+      "scraped_at_utc": "2025-06-11T02:57:21.451852+00:00",
+      "module": "Live Sessions"
+    }
+  }
+]
